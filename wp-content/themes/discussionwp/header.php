@@ -9,6 +9,9 @@
     ?>
 	<?php do_action('discussion_header_meta'); ?>
 
+
+    <link rel="icon" href="<?php echo get_template_directory_uri();?>/contenidos/logos/favicon.png" sizes="32x32" />
+
     <?php wp_head(); ?>
     
     <div id="fb-root"></div>
