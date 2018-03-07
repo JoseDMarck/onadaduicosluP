@@ -6,13 +6,11 @@
         <div class="mkd-mobile-header-holder">
             <div class="mkd-grid">
                 <div class="mkd-vertical-align-containers">
-                    <?php if($show_logo) : ?>
-                        <div class="mkd-position-left">
-                            <div class="mkd-position-left-inner">
-                                <?php discussion_get_mobile_logo(); ?>
-                            </div>
-                        </div>
-                    <?php endif; ?>
+                     <div class="logo-Movil">
+                         <img src="<?php echo get_template_directory_uri();?>/contenidos/logos/logo-sticky.png">
+                     </div>
+
+
                     <div class="mkd-position-right">
                         <div class="mkd-position-right-inner">
                             <?php if(is_active_sidebar('mkd-right-from-mobile-logo')) {
