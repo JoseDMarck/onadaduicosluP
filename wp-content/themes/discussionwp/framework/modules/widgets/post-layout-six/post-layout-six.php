@@ -85,6 +85,22 @@ class DiscussionPostLayoutSix extends DiscussionWidget {
                 'name' => 'post_in',
                 'description' => 'Enter the IDs of the posts you want to display'
             ),
+
+             //  exclude Category
+             array(
+                'type' => 'textfield',
+                'title' => 'Exclude Category',
+                'name' => 'category_not_in',
+                'description' => 'Enter the IDs of the Category you want to exclude'
+            ),
+
+            //  OFFSET
+              array(
+                'type' => 'textfield',
+                'title' => 'Add offser',
+                'name' => 'offset',
+                'description' => 'Add offset number'
+            ),
             array(
                 'type' => 'textfield',
                 'title' => 'Exclude Posts',

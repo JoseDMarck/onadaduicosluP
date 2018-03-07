@@ -455,6 +455,26 @@ if(!function_exists('discussion_get_general_shortcode_params')) {
                 "group" => "General"
             );
 
+            //exclude category
+            $params_array[] = array(
+                'type' => 'textfield',
+                'heading' => 'Exclude Category',
+                'param_name' => 'category_not_in',
+                'description' => 'Enter the IDs of the category you want to exclude',
+                "group" => "General"
+            );
+
+             //Offset
+             $params_array[] = array(
+                'type' => 'textfield',
+                'heading' => 'Add offset',
+                'param_name' => 'offset',
+                'description' => 'Add offset number',
+                "group" => "General"
+            );
+
+
+
             $params_array[] = array(
                 'type' => 'textfield',
                 'heading' => 'Number of Posts',
