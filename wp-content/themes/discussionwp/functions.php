@@ -12,7 +12,7 @@ if(!function_exists('discussion_styles')) {
         if(discussion_is_woocommerce_installed() &&  is_product()) {
 			wp_enqueue_style('discussion_modules_plugins', MIKADO_ASSETS_ROOT . '/css/plugins.min.css');
 		}
-        wp_enqueue_style('discussion_modules', MIKADO_ASSETS_ROOT.'/css/modules.min.css');
+        wp_enqueue_style('discussion_modules', MIKADO_ASSETS_ROOT.'/css/modules.css');
 
         discussion_icon_collections()->enqueueStyles();
 
@@ -27,7 +27,7 @@ if(!function_exists('discussion_styles')) {
 
         //is responsive option turned on?
         if(discussion_is_responsive_on()) {
-            wp_enqueue_style('discussion_modules_responsive', MIKADO_ASSETS_ROOT.'/css/modules-responsive.min.css');
+            wp_enqueue_style('discussion_modules_responsive', MIKADO_ASSETS_ROOT.'/css/modules-responsive.css');
 
             if(discussion_load_woo_assets()) {
                 $style_dynamic_deps_array[] = 'discussion_woo_responsive';
