@@ -1,0 +1,18 @@
+.logo-Movil{
+    width: 300px;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+.logo-Movil img{
+    width: 100%;
+    height: auto;
+}
+
+.mkd-mobile-header-holder{
+    width: 100%;
+    height: auto !important;
+    background: #000;
+
+}

@@ -19,6 +19,8 @@
   js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7&appId=490227714445389";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/custom.css">
 </head>
 <body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 <?php discussion_get_side_area(); ?>
